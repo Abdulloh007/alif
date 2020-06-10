@@ -1,0 +1,54 @@
+h5{
+  font-size: 18px;
+  font-weight: bold;
+}
+.form-control{
+  width: 100%;
+  border: 1px solid green;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.range{
+  margin: auto 20px;
+}
+.label{
+  font-size: 16px;
+  font-family: sans-serif , "Times New Roman", Tahoma;
+  display: flex;
+  padding: 15px;
+  margin: auto 20px auto;
+  color: #fff;
+  background-color: #191919;
+  box-shadow: 0 0 2px #9a8888 inset;
+  border: 1px solid #000;
+}
+.colorTitle{
+  color: #000;
+  font-size: 40px;
+  font-family: "Times New Roman", Rubik ,Tahoma, "Open sans", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  min-height: 25px;
+  width: 100%;
+  margin: 10px 0;
+}
+.btn{
+  padding: 20px 25px;
+  font-size: 24px;
+  font-family: "Times New Roman", Rubik ,Tahoma, "Open sans", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #37a134;
+  border: none;
+  border-radius: 5px;
+}
+.error_text{
+  color: firebrick;
+  text-shadow: 0 0 25px firebrick;
+  visibility: hidden;
+}
+.error{
+  visibility: visible;
+}

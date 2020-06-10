@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <span  class="error_text {{ ErrorState }}">*Please write hex colors without "#"</span>
+    <input (change)="checkErrorState()" type="text" class="form-control"  [(ngModel)]="colorHex" placeholder="Please set hex colors without '#'">
+    <h5>Opasity</h5>
+    <input (input)="opasity($event)" class="range" type="range" value="1" step="0.1" min="0" max="1">
+    <label class="label">{{ youtube }}</label>
+    <p class="colorTitle">{{ RGBAColor }}</p>
+    <button class="btn" (click)="onConvertColor()">click me</button>
+  </div>
+</div>
